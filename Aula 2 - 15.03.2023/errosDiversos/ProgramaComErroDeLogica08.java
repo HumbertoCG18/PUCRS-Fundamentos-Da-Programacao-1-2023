@@ -2,13 +2,21 @@
  * verificando erros de exceucao e/ou compilacao
  * 
  * @author (Giraffa adpatado de Profa. Silvia Moraes) 
- * @version (teste )
+ * @version (1.0)
+ */
+/**
+ * Write a description of class ProgramaComErroCompilacao01 here.
+ * 
+ * @author (Humberto Corrêa Gomes, Correção do arquivo da Professora Giraffa) 
+ * @version (1.1)
  */
 import java.util.Scanner;
 public class ProgramaComErroDeLogica08
 {
+    public static Scanner entrada;
+
     public static void main(String args[]){
-        Scanner entrada = new Scanner(System.in);
+        entrada = new Scanner(System.in);
        
         System.out.println("\fInforme o primeiro valor inteiro: ");
         int valor1 = entrada.nextInt();
@@ -18,7 +26,7 @@ public class ProgramaComErroDeLogica08
         
         double media = (valor1 + valor2) / 2;
         
-        System.out.println("Média Aritmética:  + media");
+        System.out.println("Média Aritmética:  "+ media);
     }
 
 }
