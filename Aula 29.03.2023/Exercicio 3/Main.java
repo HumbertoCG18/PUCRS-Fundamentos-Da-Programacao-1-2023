@@ -15,9 +15,11 @@ public class Main{
         int num3 = scanner.nextInt();
         
         int maior = num1;
+
         if (num2 > maior) {
             maior = num2;
         }
+        
         if (num3 > maior) {
             maior = num3;
         }
