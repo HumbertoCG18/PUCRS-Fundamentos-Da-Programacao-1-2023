@@ -31,7 +31,6 @@ public class TenislandiaV2 {
             
             // Saída do resultado
             System.out.println("A partida durou " + duracaoHoras + " hora(s) e " + duracaoMinutos + " minuto(s).");
-            System.out.println("A partida terminou às " + horaTermino + " hora(s) e " + minutoTermino + " minuto(s).");
             System.out.printf("O valor total a ser pago é R$ %.2f.", valorTotal);
         }
     }
