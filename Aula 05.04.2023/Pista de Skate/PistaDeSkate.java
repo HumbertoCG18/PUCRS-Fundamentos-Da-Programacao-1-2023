@@ -1,3 +1,9 @@
+/**
+ * Programa para calcular a quantidade de latas de tinas para pintar duas pintas de skate
+ * @author (Humberto Corrêa Gomes, 05.04.2023) 
+ * @version (1.0)
+ */
+
 import java.util.Scanner;
 
 public class PistaDeSkate {
