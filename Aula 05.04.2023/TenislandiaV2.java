@@ -18,10 +18,12 @@ public class TenislandiaV2 {
             // Cálculo do horário de término da partida
             int horaTermino = horaInicio + duracaoHoras;
             int minutoTermino = minutoInicio + duracaoMinutos;
+            
             if (minutoTermino >= 60) {
                 horaTermino++;
                 minutoTermino -= 60;
             }
+            
             if (horaTermino >= 24) {
                 horaTermino -= 24;
             }
