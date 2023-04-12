@@ -1,0 +1,11 @@
+O programa começa importando a classe Scanner, que será usada para ler os dados digitados pelo usuário.
+
+Em seguida, o programa solicita ao usuário que digite a hora de início e a duração da partida em um único input, separando os valores por dois pontos :. Esses valores são armazenados em uma string e depois separados utilizando o método split() da classe String. O valor da hora de início é armazenado na variável horaInicio e o valor do minuto de início é armazenado na variável minutoInicio. O valor da duração da partida é lido diretamente como um inteiro.
+
+O programa calcula a duração da partida em horas e minutos, dividindo a duração em minutos por 60 e calculando o resto.
+
+O programa calcula o horário de término da partida, somando a duração em horas e minutos ao horário de início. Se o número de minutos ultrapassar 60, a hora de término é incrementada em uma unidade e os minutos são ajustados. Se a hora de término ultrapassar 24, ela é ajustada.
+
+O programa calcula o valor a ser pago pela partida, levando em conta que a duração das horas é arredondada para cima.
+
+Por fim, o programa exibe na tela o valor a ser pagado e a duração total da partida.
