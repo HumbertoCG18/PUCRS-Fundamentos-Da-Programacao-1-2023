@@ -1,14 +1,7 @@
-        /**
-         * estruturas de seleção versao multipla
-         * testando as condições com Switch
-         * @author (Giraffa) 
-         * 
-         */
         import java.util.Scanner;//importa a biblioteca para fazer  E/S interativa
-        public class MultiplaSaidas
-        {
+        public class MultiplaSaidas{
                 public static void diaDaSemana(int valor){
-                            switch (valor) {
+                            switch (valor){
                                         case 1:
                                             //System.out.println("Domingo");return "Domingo" se tivesse colocado String em vez de void
                                             break;
@@ -35,14 +28,13 @@
                                      }
                         } 
                 
-            public static void main(String args[]){//metodo obrigatorio
-                
-                Scanner entrada=new Scanner(System.in);
-                System.out.println("\f");
-                System.out.println("\n Digite dia da Semana= ");
-                int dia=entrada.nextInt();
-                System.out.print("\n O dia lido e: ");
-                 diaDaSemana(dia);              
-
+            public static void main(String args[]){ //metodo obrigatorio
+                try (Scanner entrada = new Scanner(System.in)) {
+                    System.out.println("\f");
+                    System.out.println("\n Digite dia da Semana= ");
+                    int dia=entrada.nextInt();
+                    System.out.print("\n O dia lido e: ");
+                     diaDaSemana(dia);
+                }
             }
         }
