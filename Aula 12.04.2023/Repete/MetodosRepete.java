@@ -7,42 +7,35 @@
 
 
 
-public class MetodosRepete
-{
-    public static int quantDiv1 (int valor)
-    { int cont=0;//contador
+public class MetodosRepete{
+    public static int quantDiv1 (int valor){ 
+      int cont=0;//contador
       int ante=1;//gerar os antecessores
       
-      while (ante <= valor)
-      {
+      while (ante <= valor){
         if (valor% ante ==0) cont++;//cont ++ >> cont=cont+1 sugnifica que valor e divisivel por ante
         ante++;
      }
       return cont;
     }
     
-     public static int quantDivP (int valor)//quantidade de divisores Proprios
-    { int cont=0;
+     public static int quantDivP (int valor){ //quantidade de divisores Proprios
+      int cont=0;
       int ante=1;
-      while (ante< valor)
-      {
+      while (ante< valor){
         if (valor% ante ==0) cont++;
         ante++;
      }
       return cont;
     }
-    
-    
-        public static int quantDiv2 (int valor)//usando propriedades
-        { int cont=0;
+        public static int quantDiv2 (int valor){ //usando propriedades
+          int cont=0;
           int ante=0;
           if (valor ==1) {cont= 1;}
-              else 
-                  { 
+              else { 
                       cont=2;//todo numero e divisivel por ele mesmo e 1 entao ja inicializa o contador com 2
                       ante=2;
-                      while (ante < valor)
-                      {
+                      while (ante < valor){
                         if (valor% ante ==0) cont++;
                         ante++;
                       }
@@ -52,45 +45,40 @@ public class MetodosRepete
       }
     
   
-      public static int somaDiv (int valor)
-        { int soma=0;//usar acumulador de soma e cuidar de inicializar com elemento neutro da operaçao (adicao) +
+      public static int somaDiv (int valor){ 
+          int soma=0;//usar acumulador de soma e cuidar de inicializar com elemento neutro da operaçao (adicao) +
           int ante=1;
-          while (ante<= valor)
-          {
+          while (ante<= valor){
             if (valor% ante ==0) soma=soma+ante;
             ante++;
          }
           return soma;
         }
       
-        public static int somaDivP (int valor)
-        { int soma=0;
+        public static int somaDivP (int valor){ int soma=0;
           int ante=1;
-          while (ante< valor)
-          {
+          while (ante< valor){
             if (valor% ante ==0) soma=soma+ante;
             ante++;
          }
           return soma;
         }
        
-        public static boolean amigos (int a, int b)//dois números sao  amigos se cada um deles e igual à soma dos divisores proprios do outro numero e vice versa
-        { 
+        public static boolean amigos (int a, int b){ //dois números sao  amigos se cada um deles e igual à soma dos divisores proprios do outro numero e vice versa 
             if (somaDivP(a)==b && somaDivP(b) ==a) return true;
                else return false;
              
          }
           
                 
-        public static void main (String args[])
-        {
+        public static void main (String args[]){
             //sem entrada de dados -- apenas para testar e demonstrar métodos
             System.out.println("\f");
             System.out.println ("\n Chamada dos metodos \n ****************");
             int num=8;//valor fixo
             
             if (num==1) { System.out.println ("\n Quantidade divisores e igual a 1"); } 
-                else {System.out.println ("\n Quantidade divisores - metodo quantDiv1:   "+ quantDiv1(num));}//chamada de metodo
+                else{System.out.println ("\n Quantidade divisores - metodo quantDiv1:   "+ quantDiv1(num));}//chamada de metodo
                 
             System.out.println ("\n Quantidade divisores proprios - metodo quantDivP:   "+ quantDivP(num));//chamada de metodo
             System.out.println ("\n Quantidade divisores - metodo quantDiv2:   "+ quantDiv2(num));//chamada de metodo
