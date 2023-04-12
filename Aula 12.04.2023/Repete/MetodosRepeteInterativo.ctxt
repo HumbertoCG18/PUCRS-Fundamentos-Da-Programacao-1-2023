@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=MetodosRepeteInterativo
+comment1.params=valor
+comment1.target=int\ quantDiv1(int)
+comment2.params=valor
+comment2.target=int\ quantDivP(int)
+comment3.params=valor
+comment3.target=int\ quantDiv2(int)
+comment4.params=valor
+comment4.target=int\ somaDiv(int)
+comment5.params=valor
+comment5.target=int\ somaDivP(int)
+comment6.params=a\ b
+comment6.target=boolean\ amigos(int,\ int)
+comment7.params=args
+comment7.target=void\ main(java.lang.String[])
+numComments=8
