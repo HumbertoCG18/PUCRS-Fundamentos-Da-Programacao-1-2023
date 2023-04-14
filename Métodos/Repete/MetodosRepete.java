@@ -1,9 +1,13 @@
+package Métodos.Repete;
+
 /*
 * *metodos usando estruturas de repetição
 * *Fundamentos turma 10 & 14
 * *aula de 12 de abril de 2023
 *
  */
+
+
 
 public class MetodosRepete{
     public static int quantDiv1 (int valor){ 
