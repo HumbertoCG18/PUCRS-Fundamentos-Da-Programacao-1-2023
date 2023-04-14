@@ -1,4 +1,4 @@
-package Métodos.Repete;
+package BubliotecaM;
 
 /*
 * *metodos usando estruturas de repetição

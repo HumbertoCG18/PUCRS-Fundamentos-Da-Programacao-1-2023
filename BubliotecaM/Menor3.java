@@ -1,3 +1,5 @@
+package BubliotecaM;
+
 public class Menor3{
     public static int  menor1(int a, int b, int c){ //usando operadores logicos
         if ((a<b) && (a <c))  return a;//opcional usar { }

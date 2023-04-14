@@ -1,4 +1,4 @@
-package Métodos.Switches;
+package BubliotecaM;
 
         import java.util.Scanner;//importa a biblioteca para fazer  E/S interativa
         public class MultiplaSaidas{
