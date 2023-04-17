@@ -42,8 +42,6 @@ public class CalculoAreas {
     System.out.println("Área do retângulo: " + areaRetangulo);
     System.out.println("Área do quadrado: " + areaQuadrado);
     System.out.println("Área do triângulo: " + areaTriangulo);
-}
-
-    
+}   
 }
 

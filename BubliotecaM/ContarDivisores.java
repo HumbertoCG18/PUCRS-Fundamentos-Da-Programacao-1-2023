@@ -11,7 +11,5 @@ public class ContarDivisores{
         }
         
         return contador;
-    }
-    
-
+    } 
 }
