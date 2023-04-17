@@ -9,7 +9,7 @@ package BubliotecaM;
  */
 
 
-import java.util.*;
+import java.util.Scanner;
 public class MetodosRepeteInterativo{
     public static int quantDiv1 (int valor){ 
       int cont=0;
