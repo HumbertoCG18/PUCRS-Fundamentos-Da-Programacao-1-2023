@@ -10,24 +10,23 @@ package BubliotecaM;
 
 
 import java.util.*;
-public class MetodosRepeteInterativo
-{
-    public static int quantDiv1 (int valor)
-    { int cont=0;
+public class MetodosRepeteInterativo{
+    public static int quantDiv1 (int valor){ 
+      int cont=0;
       int ante=1;
-      while (ante<= valor)
-      {
+
+      while (ante<= valor){
         if (valor% ante ==0) cont++;
         ante++;
      }
       return cont;
     }
     
-     public static int quantDivP (int valor)//quantidade de divisores Proprios
-    { int cont=0;
+     public static int quantDivP (int valor){ //quantidade de divisores Proprios 
+      int cont=0;
       int ante=1;
-      while (ante< valor)
-      {
+      while (ante< valor){
+
         if (valor% ante ==0) cont++;
         ante++;
      }
@@ -35,16 +34,16 @@ public class MetodosRepeteInterativo
     }
     
     
-        public static int quantDiv2 (int valor)//usando propriedades
-        { int cont=0;
+        public static int quantDiv2 (int valor){ //usando propriedades 
+          int cont=0;
           int ante=0;
           if (valor ==1) {cont= 1;}
-              else 
-                  { 
+              else{ 
                       cont=2;//todo numero e divisivel por ele mesmo e 1 entao ja inicializa o contador com 2
                       ante=2;
-                      while (ante < valor)
-                      {
+
+                      while (ante < valor){
+
                         if (valor% ante ==0) cont++;
                         ante++;
                       }
@@ -54,33 +53,31 @@ public class MetodosRepeteInterativo
       }
     
   
-      public static int somaDiv (int valor)
-        { int soma=0;
+      public static int somaDiv (int valor){ 
+          int soma=0;
           int ante=1;
-          while (ante<= valor)
-          {
+
+          while (ante<= valor){
             if (valor% ante ==0) soma=soma+ante;
             ante++;
          }
           return soma;
         }
       
-        public static int somaDivP (int valor)
-        { int soma=0;
+        public static int somaDivP (int valor){ 
+          int soma=0;
           int ante=1;
-          while (ante< valor)
-          {
-            if (valor% ante ==0) soma=soma+ante;
+
+          while (ante< valor){
+            if (valor% ante ==0) soma = soma + ante;
             ante++;
          }
           return soma;
         }
        
-        public static boolean amigos (int a, int b)//dois números sao  amigos se cada um fosse igual à soma dos divisores porprios do outro numero
-        { 
+        public static boolean amigos (int a, int b){ //dois números sao  amigos se cada um fosse igual à soma dos divisores porprios do outro numero 
             if (somaDivP(a)==b && somaDivP(b) ==a) return true;
                else return false;
-             
          }
           
                 
@@ -90,12 +87,10 @@ public class MetodosRepeteInterativo
               System.out.println ("\n Chamada dos metodos \n ********** agora digitando valores");
               int num;
               
-              do
-              {
+              do{
               System.out.println ("\n Digite um numero natural maior que zero");
               num=entrada.nextInt();
-              } while (num<=0);
-              //quantas vezes sera executado este laço?
+              } while (num<=0); //quantas vezes sera executado este laço?
               
               System.out.println ("\n Quantidade divisores - metodo quantDiv1:   "+ quantDiv1(num));
               System.out.println ("\n Quantidade divisores proprios - metodo quantDivP:   "+ quantDivP(num));

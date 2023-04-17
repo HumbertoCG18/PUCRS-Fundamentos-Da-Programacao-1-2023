@@ -5,7 +5,7 @@ package BubliotecaM;
                 public static void diaDaSemana(int valor){
                             switch (valor){
                                         case 1:
-                                            //System.out.println("Domingo");return "Domingo" se tivesse colocado String em vez de void
+                                            System.out.println("Domingo"); //return "Domingo" se tivesse colocado String em vez de void
                                             break;
                                         case 2:
                                             System.out.println("Segunda-feira");
