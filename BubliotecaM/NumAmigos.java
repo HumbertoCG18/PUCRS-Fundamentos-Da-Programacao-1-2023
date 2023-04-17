@@ -1,5 +1,7 @@
 package BubliotecaM;
 
+//Esse método recebe dois números inteiros como parâmetros e calcula a soma dos divisores próprios de cada um deles. Depois, verifica se a soma dos divisores próprios de um número é igual ao outro número e vice-versa. Se for verdadeiro, retorna true, indicando que os números são amigos. Caso contrário, retorna false.
+
 public class NumAmigos {
     public static boolean Amigos(int num1, int num2) {
         int soma1 = 0, soma2 = 0;
@@ -19,6 +21,4 @@ public class NumAmigos {
             return false;
         }
     }
-    
-    
 }
