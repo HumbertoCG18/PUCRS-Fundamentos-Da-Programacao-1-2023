@@ -1,5 +1,3 @@
-//Fazer este método
-
 package BubliotecaM;
 public class NumCapicuos {
     public static boolean Capicua(int num) {
@@ -10,7 +8,7 @@ public class NumCapicuos {
             reverse = reverse * 10 + digit;
             num /= 10;
         }
-        
+
         return original == reverse;
     } 
 }
