@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Exercicio14{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        
+
         System.out.print("Digite um número natural: ");
         int primeiroValor = sc.nextInt();
         int soma = 0;
