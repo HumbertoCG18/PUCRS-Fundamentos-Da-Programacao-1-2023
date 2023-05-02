@@ -1,3 +1,0 @@
-O programa pede ao usuário para digitar os valores dos raios das duas semiesferas que compõem a pista de skate. 
-Em seguida, ele calcula a área total da pista de skate e divide essa área pela área que uma lata de tinta consegue pintar (12 metros quadrados) para obter a quantidade de latas de tinta necessárias. 
-O resultado é arredondado para cima usando o método Math.ceil(). Por fim, o programa exibe a quantidade de latas de tinta necessárias.
