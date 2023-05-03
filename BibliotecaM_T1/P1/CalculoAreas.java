@@ -1,4 +1,4 @@
-package BibliotecaM_T1;
+package BibliotecaM_T1.P1;
 
 //Explicação
 //O método areaCirculo recebe o raio como parâmetro e utiliza a fórmula da área do círculo (π * r^2) para calcular a área e retorná-la.
