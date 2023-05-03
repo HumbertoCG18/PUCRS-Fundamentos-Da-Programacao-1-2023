@@ -1,6 +1,6 @@
-package BibliotecaM_T1.Exercícios;
+package BibliotecaM_T1.Exercícios.Lista_3;
 import java.util.Scanner;
-import BibliotecaM_T1.NumPar;
+import BibliotecaM_T1.P1.NumPar;
 
 public class Exercicio15{
     public static void main(String[] args) {

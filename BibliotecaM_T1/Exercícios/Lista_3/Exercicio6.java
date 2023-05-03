@@ -1,8 +1,8 @@
 //Usar métodos primos
 
-package BibliotecaM_T1.Exercícios;
+package BibliotecaM_T1.Exercícios.Lista_3;
 import java.util.Scanner;
-import BibliotecaM_T1.VerifPrimo;
+import BibliotecaM_T1.P1.VerifPrimo;
 
 public class Exercicio6 {
     public static void main(String[] args) {

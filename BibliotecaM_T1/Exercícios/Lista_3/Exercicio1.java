@@ -1,4 +1,4 @@
-package BibliotecaM_T1.Exercícios;
+package BibliotecaM_T1.Exercícios.Lista_3;
 import java.util.Scanner;
 import java.util.Arrays;
 

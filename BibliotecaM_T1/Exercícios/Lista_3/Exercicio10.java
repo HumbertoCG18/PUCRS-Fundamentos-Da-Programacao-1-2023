@@ -1,6 +1,6 @@
 //Usar método números perfeitos
-package BibliotecaM_T1.Exercícios;
-import BibliotecaM_T1.NumPerfeito;
+package BibliotecaM_T1.Exercícios.Lista_3;
+import BibliotecaM_T1.P1.NumPerfeito;
 
 public class Exercicio10{
     public static void main(String[] args) {

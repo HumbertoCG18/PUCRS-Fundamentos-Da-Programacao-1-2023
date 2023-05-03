@@ -1,6 +1,6 @@
 //usar métodos amigos
-package BibliotecaM_T1.Exercícios;
-import BibliotecaM_T1.NumAmigos;
+package BibliotecaM_T1.Exercícios.Lista_3;
+import BibliotecaM_T1.P1.NumAmigos;
 
 public class Exercicio13{
     public static void main(String[] args) {

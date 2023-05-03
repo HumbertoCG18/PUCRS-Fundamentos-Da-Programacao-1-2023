@@ -1,5 +1,5 @@
-package BibliotecaM_T1.Exercícios;
-import BibliotecaM_T1.NumCapicuos;
+package BibliotecaM_T1.Exercícios.Lista_3;
+import BibliotecaM_T1.P1.NumCapicuos;
 
 public class Exercicio16{
     public static void main(String[] args) {
