@@ -1,4 +1,4 @@
-package BibliotecaM_T1;
+package BibliotecaM_T1.P1;
 
 public class DivisoresProprios {
     public static int qtdDivisoresProprios(int n) {

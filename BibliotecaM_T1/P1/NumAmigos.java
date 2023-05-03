@@ -1,4 +1,4 @@
-package BibliotecaM_T1;
+package BibliotecaM_T1.P1;
 public class NumAmigos {
     public static boolean Amigos(int num1, int num2) {
         int soma1 = 0, soma2 = 0;

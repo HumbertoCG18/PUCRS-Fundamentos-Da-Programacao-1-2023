@@ -1,4 +1,4 @@
-package BibliotecaM_T1;
+package BibliotecaM_T1.P1;
 
 //O método Defectivo recebe como parâmetro um número inteiro number e percorre todos os números inteiros positivos menores que number para verificar se são divisores de number. A soma de todos os divisores de number é armazenada na variável sum.
 //Se a soma dos divisores for menor que number, o número é considerado defectivo e o método retorna true. Caso contrário, o número não é defectivo e o método retorna false.

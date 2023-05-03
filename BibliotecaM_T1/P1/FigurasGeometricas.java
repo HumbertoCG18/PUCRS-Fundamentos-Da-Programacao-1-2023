@@ -1,5 +1,4 @@
-package BibliotecaM_T1;
-
+package BibliotecaM_T1.P1;
 public class FigurasGeometricas {
     // Método para cálculo da área do círculo
     public static double calcularAreaCirculo(double raio) {

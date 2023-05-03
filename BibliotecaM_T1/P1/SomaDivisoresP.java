@@ -1,4 +1,4 @@
-package BibliotecaM_T1;
+package BibliotecaM_T1.P1;
 
 public class SomaDivisoresP {
     public static int somaDivisoresProprios(int n) {

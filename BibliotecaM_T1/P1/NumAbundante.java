@@ -1,5 +1,4 @@
-package BibliotecaM_T1;
-
+package BibliotecaM_T1.P1;
 public class NumAbundante {
     public static boolean Abundante(int num) {
         int sum = 0;

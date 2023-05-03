@@ -1,4 +1,4 @@
-package BibliotecaM_T1;
+package BibliotecaM_T1.P1;
 import java.util.Arrays;
 import java.util.Scanner;
 
