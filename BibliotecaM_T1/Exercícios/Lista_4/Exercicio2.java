@@ -1,5 +1,4 @@
 package BibliotecaM_T1.Exercícios.Lista_4;
-
 import java.util.Scanner;
 
 public class Exercicio2{

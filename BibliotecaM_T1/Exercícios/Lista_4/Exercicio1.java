@@ -1,7 +1,7 @@
 package BibliotecaM_T1.Exercícios.Lista_4;
 import java.util.Scanner;
 
-public class Exercicio1 {
+public class Exercicio1{
     public static void main(String[] args) {
         try (Scanner input = new Scanner(System.in)) {
             System.out.println("Digite uma frase: ");
