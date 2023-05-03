@@ -1,0 +1,5 @@
+    Importamos a classe Scanner para poder ler uma entrada de texto do usuário.
+Pedimos ao usuário para digitar um verbo terminado em AR e guardamos esse verbo em uma variável chamada "verbo".
+Extraímos o radical do verbo, que é tudo antes dos dois últimos caracteres.
+Criamos dois arrays de String, um com os pronomes pessoais (em ordem: eu, tu, ele, nós, vós, eles) e outro com as terminações do presente do indicativo (em ordem: o, as, a, amos, ais, am).
+Usando um loop for, percorremos os dois arrays e construímos cada uma das conjugações no presente, imprimindo-as na tela.

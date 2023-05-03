@@ -1,0 +1,6 @@
+Criamos uma variável "palavra" para armazenar a palavra "Java".
+Em seguida, criamos uma variável "tamanho" para armazenar o tamanho da palavra.
+Usamos um laço for para percorrer cada linha da saída. A condição de parada é tamanho * 2 - 1 porque a saída tem tamanho * 2 - 1 linhas.
+Dentro do laço for, verificamos se estamos na primeira metade da saída (i < tamanho). Se sim, usamos outro laço for para percorrer cada caractere da palavra até a posição i e exibi-lo na tela usando o método charAt().
+Se estamos na segunda metade da saída (i >= tamanho), usamos outro laço for para percorrer cada caractere da palavra a partir da posição 0 até a posição tamanho - (i - tamanho + 1) e exibi-lo na tela usando o método charAt().
+Ao final de cada linha, usamos o comando println() para pular para a próxima linha.

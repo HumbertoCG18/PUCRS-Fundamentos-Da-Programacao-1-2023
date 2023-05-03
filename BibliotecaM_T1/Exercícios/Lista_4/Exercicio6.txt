@@ -1,0 +1,6 @@
+Importamos a classe Scanner para poder ler uma entrada de texto do usuário.
+Pedimos ao usuário para digitar uma palavra e guardamos essa palavra em uma variável chamada "palavra".
+Criamos uma variável booleana chamada "palindromo" que começa com o valor "true".
+Em um loop for, percorremos metade da palavra (até o meio) e comparamos o caractere atual com o seu "par" do outro lado da palavra (começando pelo final).
+Se encontramos um par de caracteres que não são iguais, mudamos o valor da variável "palindromo" para "false" e saímos do loop.
+Depois do loop, verificamos se a variável "palindromo" ainda é "true" ou se foi mudada para "false". Se for "true", exibimos a mensagem "A palavra é um palíndromo". Caso contrário, exibimos a mensagem "A palavra não é um palíndromo".

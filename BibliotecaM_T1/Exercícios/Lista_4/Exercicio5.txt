@@ -1,0 +1,5 @@
+Definimos uma string "palavra" com o valor "Java".
+Criamos um loop for que vai de 1 até o comprimento da string "palavra".
+Dentro do loop, usamos o método substring() para pegar uma sub-string da "palavra" que começa no índice 0 e vai até o índice i (ou seja, pegamos os primeiros i caracteres da palavra) e exibimos essa sub-string na tela.
+Criamos outro loop for que vai do comprimento da string "palavra" - 1 até 1 (ou seja, vamos pegando cada vez menos caracteres da palavra).
+Dentro desse segundo loop, usamos novamente o método substring() para pegar uma sub-string da "palavra" que começa no índice 0 e vai até o índice i (ou seja, pegamos os primeiros i caracteres da palavra) e exibimos essa sub-string na tela.

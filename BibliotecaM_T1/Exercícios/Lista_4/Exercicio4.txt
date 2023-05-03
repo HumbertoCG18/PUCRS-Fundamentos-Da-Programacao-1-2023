@@ -1,0 +1,8 @@
+Importamos a classe Scanner para poder ler a entrada do usuário.
+Criamos um objeto scanner para ler a entrada do usuário.
+Pedimos ao usuário para digitar um texto em letras maiúsculas usando o método nextLine() do objeto scanner e armazenamos o texto na variável textoMaiusculo.
+Usamos o método toLowerCase() para converter o texto em letras minúsculas e armazenamos o resultado na variável textoMinusculo.
+Exibimos o texto em letras minúsculas na tela usando o método println() do objeto System.out.
+Pedimos ao usuário para digitar um texto em letras minúsculas usando o método nextLine() do objeto scanner e armazenamos o texto na variável textoMinusculo2.
+Usamos o método toUpperCase() para converter o texto em letras maiúsculas e armazenamos o resultado na variável textoMaiusculo2.
+Exibimos o texto em letras maiúsculas na tela usando o método println() do objeto System.out.

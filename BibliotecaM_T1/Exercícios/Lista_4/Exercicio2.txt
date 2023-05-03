@@ -1,0 +1,9 @@
+Na primeira linha, importamos a classe Scanner, que nos permitirá ler a entrada do usuário.
+Em seguida, criamos um objeto Scanner chamado "input" para ler a entrada do usuário.
+Depois, exibimos uma mensagem pedindo ao usuário para digitar uma frase.
+Em seguida, usamos o método nextLine() do objeto input para ler a linha digitada pelo usuário e armazenamos o resultado na variável "frase". Usamos o método toLowerCase() para converter a frase para letras minúsculas e facilitar a comparação posterior.
+Exibimos outra mensagem pedindo ao usuário para digitar uma palavra.
+Usamos novamente o método nextLine() para ler a palavra digitada pelo usuário e armazenamos o resultado na variável "palavra". Também usamos o método toLowerCase() para converter a palavra para letras minúsculas.
+Criamos uma variável "qtdPalavras" para armazenar a quantidade de vezes que a palavra foi encontrada na frase. Iniciamos essa variável com o valor zero.
+Usamos o método split(" ") da classe String para dividir a frase em um array de palavras. O argumento " " indica que as palavras devem ser separadas por espaços em branco.
+Em seguida, usamos um laço for para percorrer cada palavra do array.

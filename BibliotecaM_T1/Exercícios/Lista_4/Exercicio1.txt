@@ -1,0 +1,9 @@
+Na primeira linha, importamos a classe Scanner, que nos permitirá ler a entrada do usuário.
+Em seguida, criamos um objeto Scanner chamado "input" para ler a entrada do usuário.
+Depois, exibimos uma mensagem pedindo ao usuário para digitar uma frase.
+Em seguida, usamos o método nextLine() do objeto input para ler a linha digitada pelo usuário e armazenamos o resultado na variável "frase".
+Criamos uma variável "qtdVogais" para armazenar a quantidade de vogais encontradas na frase. Iniciamos essa variável com o valor zero.
+Em seguida, usamos um laço for para percorrer cada caractere da frase.
+Para cada caractere, usamos o método charAt(i) da classe String para obter o caractere na posição i da frase.
+Verificamos se o caractere é uma vogal (a, e, i, o ou u), e se for, incrementamos a variável "qtdVogais".
+Finalmente, exibimos a quantidade de vogais encontradas na frase usando o método println() da classe System.out.
