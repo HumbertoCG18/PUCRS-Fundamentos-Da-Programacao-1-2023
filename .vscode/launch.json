@@ -1,0 +1,203 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio1",
+            "request": "launch",
+            "mainClass": "BibliotecaM.Exercícios.Lista_3.Exercicio1",
+            "projectName": "PUCRS-Fundamentos-Da-Programacao-1_10649441"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio10",
+            "request": "launch",
+            "mainClass": "BibliotecaM.Exercícios.Lista_3.Exercicio10",
+            "projectName": "PUCRS-Fundamentos-Da-Programacao-1_10649441"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio11",
+            "request": "launch",
+            "mainClass": "BibliotecaM.Exercícios.Lista_3.Exercicio11",
+            "projectName": "PUCRS-Fundamentos-Da-Programacao-1_10649441"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio12",
+            "request": "launch",
+            "mainClass": "BibliotecaM.Exercícios.Lista_3.Exercicio12",
+            "projectName": "PUCRS-Fundamentos-Da-Programacao-1_10649441"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio13",
+            "request": "launch",
+            "mainClass": "BibliotecaM.Exercícios.Lista_3.Exercicio13",
+            "projectName": "PUCRS-Fundamentos-Da-Programacao-1_10649441"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio14",
+            "request": "launch",
+            "mainClass": "BibliotecaM.Exercícios.Lista_3.Exercicio14",
+            "projectName": "PUCRS-Fundamentos-Da-Programacao-1_10649441"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio15",
+            "request": "launch",
+            "mainClass": "BibliotecaM.Exercícios.Lista_3.Exercicio15",
+            "projectName": "PUCRS-Fundamentos-Da-Programacao-1_10649441"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio16",
+            "request": "launch",
+            "mainClass": "BibliotecaM.Exercícios.Lista_3.Exercicio16",
+            "projectName": "PUCRS-Fundamentos-Da-Programacao-1_10649441"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio17",
+            "request": "launch",
+            "mainClass": "BibliotecaM.Exercícios.Lista_3.Exercicio17",
+            "projectName": "PUCRS-Fundamentos-Da-Programacao-1_10649441"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio2",
+            "request": "launch",
+            "mainClass": "BibliotecaM.Exercícios.Lista_3.Exercicio2",
+            "projectName": "PUCRS-Fundamentos-Da-Programacao-1_10649441"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio3",
+            "request": "launch",
+            "mainClass": "BibliotecaM.Exercícios.Lista_3.Exercicio3",
+            "projectName": "PUCRS-Fundamentos-Da-Programacao-1_10649441"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio4",
+            "request": "launch",
+            "mainClass": "BibliotecaM.Exercícios.Lista_3.Exercicio4",
+            "projectName": "PUCRS-Fundamentos-Da-Programacao-1_10649441"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio5",
+            "request": "launch",
+            "mainClass": "BibliotecaM.Exercícios.Lista_3.Exercicio5",
+            "projectName": "PUCRS-Fundamentos-Da-Programacao-1_10649441"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio6",
+            "request": "launch",
+            "mainClass": "BibliotecaM.Exercícios.Lista_3.Exercicio6",
+            "projectName": "PUCRS-Fundamentos-Da-Programacao-1_10649441"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio7",
+            "request": "launch",
+            "mainClass": "BibliotecaM.Exercícios.Lista_3.Exercicio7",
+            "projectName": "PUCRS-Fundamentos-Da-Programacao-1_10649441"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio8",
+            "request": "launch",
+            "mainClass": "BibliotecaM.Exercícios.Lista_3.Exercicio8",
+            "projectName": "PUCRS-Fundamentos-Da-Programacao-1_10649441"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio9",
+            "request": "launch",
+            "mainClass": "BibliotecaM.Exercícios.Lista_3.Exercicio9",
+            "projectName": "PUCRS-Fundamentos-Da-Programacao-1_10649441"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio1(1)",
+            "request": "launch",
+            "mainClass": "BibliotecaM.Exercícios.Lista_4.Exercicio1",
+            "projectName": "PUCRS-Fundamentos-Da-Programacao-1_10649441"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio2(1)",
+            "request": "launch",
+            "mainClass": "BibliotecaM.Exercícios.Lista_4.Exercicio2",
+            "projectName": "PUCRS-Fundamentos-Da-Programacao-1_10649441"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio3(1)",
+            "request": "launch",
+            "mainClass": "BibliotecaM.Exercícios.Lista_4.Exercicio3",
+            "projectName": "PUCRS-Fundamentos-Da-Programacao-1_10649441"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio4(1)",
+            "request": "launch",
+            "mainClass": "BibliotecaM.Exercícios.Lista_4.Exercicio4",
+            "projectName": "PUCRS-Fundamentos-Da-Programacao-1_10649441"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio5(1)",
+            "request": "launch",
+            "mainClass": "BibliotecaM.Exercícios.Lista_4.Exercicio5",
+            "projectName": "PUCRS-Fundamentos-Da-Programacao-1_10649441"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio6(1)",
+            "request": "launch",
+            "mainClass": "BibliotecaM.Exercícios.Lista_4.Exercicio6",
+            "projectName": "PUCRS-Fundamentos-Da-Programacao-1_10649441"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio7(1)",
+            "request": "launch",
+            "mainClass": "BibliotecaM.Exercícios.Lista_4.Exercicio7",
+            "projectName": "PUCRS-Fundamentos-Da-Programacao-1_10649441"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio8(1)",
+            "request": "launch",
+            "mainClass": "BibliotecaM.Exercícios.Lista_4.Exercicio8",
+            "projectName": "PUCRS-Fundamentos-Da-Programacao-1_10649441"
+        },
+        {
+            "type": "java",
+            "name": "CalculoAreas",
+            "request": "launch",
+            "mainClass": "BibliotecaM.P1.CalculoAreas",
+            "projectName": "PUCRS-Fundamentos-Da-Programacao-1_10649441"
+        },
+        {
+            "type": "java",
+            "name": "Ler3",
+            "request": "launch",
+            "mainClass": "BibliotecaM.P1.Ler3",
+            "projectName": "PUCRS-Fundamentos-Da-Programacao-1_10649441"
+        }
+    ]
+}
