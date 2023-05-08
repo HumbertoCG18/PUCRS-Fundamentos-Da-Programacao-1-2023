@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AppAluno",
+            "request": "launch",
+            "mainClass": "Aulas.Maio.Aula_08052023.AppAluno",
+            "projectName": "PUCRS-Fundamentos-Da-Programacao-1_10649441"
+        },
+        {
+            "type": "java",
             "name": "AppAluno2",
             "request": "launch",
             "mainClass": "Aulas.Maio.Aula_08052023.AppAluno2",
