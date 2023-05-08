@@ -1,17 +1,17 @@
-
+package Aulas.Maio.Aula_03052023;
 
 //aula de   *** Fundamentos *** Profa.Giraffa
 public class InicioFim {
 public static void main(String[] args) {
 String string1 = "http://www.fundamentos.net";
 System.out.println("A string " + string1 + " e:");
-// verifica se ha¡ 'http:' no inicio da string
+// verifica se haï¿½ 'http:' no inicio da string
 if (string1.startsWith("http:")) {
 System.out.println("uma URL");
 }
 /*
-* verifica se ha¡ 'www' no ina­cio da string, mas apenas a partir do
-* 8o. caracter, ou seja, apaos o prefixo 'http://', portanto devera¡
+* verifica se haï¿½ 'www' no inaï¿½cio da string, mas apenas a partir do
+* 8o. caracter, ou seja, apaos o prefixo 'http://', portanto deveraï¿½
 * ser compensado 7 caracteres
 */
 if (string1.startsWith("www", 7)) {

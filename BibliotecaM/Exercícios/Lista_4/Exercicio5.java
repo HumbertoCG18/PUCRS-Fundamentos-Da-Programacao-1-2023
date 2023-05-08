@@ -1,5 +1,7 @@
 package BibliotecaM.Exercícios.Lista_4;
 
+//Aula de maio 03.05.2023
+
 public class Exercicio5{
     public static void main(String[] args) {
         String palavra = "Java";

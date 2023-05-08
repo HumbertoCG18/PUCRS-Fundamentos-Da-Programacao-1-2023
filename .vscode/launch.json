@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MetodosStringsExercicio",
+            "request": "launch",
+            "mainClass": "Aulas.Maio.Aula_03052023.MetodosStringsExercicio",
+            "projectName": "PUCRS-Fundamentos-Da-Programacao-1_10649441"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"

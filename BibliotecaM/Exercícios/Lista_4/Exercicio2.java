@@ -1,6 +1,8 @@
 package BibliotecaM.Exercícios.Lista_4;
 import java.util.Scanner;
 
+//Aula de maio 03.05.2023
+
 public class Exercicio2{
     public static void main(String[] args) {
         try (Scanner input = new Scanner(System.in)) {
