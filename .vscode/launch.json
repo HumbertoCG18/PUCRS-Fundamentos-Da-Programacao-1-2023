@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AppAluno2",
+            "request": "launch",
+            "mainClass": "Aulas.Maio.Aula_08052023.AppAluno2",
+            "projectName": "PUCRS-Fundamentos-Da-Programacao-1_10649441"
+        },
+        {
+            "type": "java",
             "name": "Triangulo",
             "request": "launch",
             "mainClass": "BibliotecaM.Exercícios.Exercicios_OO.Triangulo",
