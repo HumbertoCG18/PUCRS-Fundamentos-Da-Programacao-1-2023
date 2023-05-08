@@ -1,6 +1,5 @@
 package Aulas.Maio.Aula_08052023;
 import java.util.*;
-
 /**
  * usando a clase Aluno2 na aplica��o
  *
