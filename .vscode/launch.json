@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Triangulo",
+            "request": "launch",
+            "mainClass": "BibliotecaM.Exercícios.Exercicios_OO.Triangulo",
+            "projectName": "PUCRS-Fundamentos-Da-Programacao-1_10649441"
+        },
+        {
+            "type": "java",
+            "name": "Data",
+            "request": "launch",
+            "mainClass": "BibliotecaM.Exercícios.Exercicios_OO.Data",
+            "projectName": "PUCRS-Fundamentos-Da-Programacao-1_10649441"
+        },
+        {
+            "type": "java",
+            "name": "TrianguloEx",
+            "request": "launch",
+            "mainClass": "BibliotecaM.Exercícios.Exercicios_OO.TrianguloEx",
+            "projectName": "PUCRS-Fundamentos-Da-Programacao-1_10649441"
+        },
+        {
+            "type": "java",
             "name": "MetodosStringsExercicio",
             "request": "launch",
             "mainClass": "Aulas.Maio.Aula_03052023.MetodosStringsExercicio",

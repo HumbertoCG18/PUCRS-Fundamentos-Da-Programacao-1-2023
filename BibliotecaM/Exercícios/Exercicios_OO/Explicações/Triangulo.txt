@@ -1,0 +1,9 @@
+A classe Triangulo possui os atributos privados ladoA, ladoB e ladoC que representam os lados do triângulo, além do construtor que recebe os valores desses lados como parâmetros.
+
+O método tipoTriangulo() verifica os valores dos lados para determinar o tipo do triângulo: Equilátero se todos os lados forem iguais, Escaleno se todos os lados forem diferentes, e Isósceles caso contrário.
+
+O método calcularArea() utiliza a fórmula de Heron para calcular a área do triângulo, que depende dos valores dos lados.
+
+O método calcularPerimetro() simplesmente soma os valores dos lados para calcular o perímetro.
+
+No método main, foram criados dois objetos da classe Triangulo e foram chamados os métodos tipoTriangulo(), calcularArea() e calcularPerimetro() para cada um deles, mostrando seus respectivos resultados na saída padrão.

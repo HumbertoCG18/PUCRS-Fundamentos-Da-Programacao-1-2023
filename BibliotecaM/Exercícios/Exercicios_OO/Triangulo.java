@@ -3,47 +3,49 @@ package BibliotecaM.Exercícios.Exercicios_OO;
 //Aula de maio 08.05.2023
 
 public class Triangulo{
-    private double lado1;
-    private double lado2;
-    private double lado3;
+    private double ladoA;
+    private double ladoB;
+    private double ladoC;
     
-    public Triangulo(double lado1, double lado2, double lado3){
-        this.lado1 = lado1;
-        this.lado2 = lado2;
-        this.lado3 = lado3;
+    public Triangulo(double a, double b, double c){
+        this.ladoA = a;
+        this.ladoB = b;
+        this.ladoC = c;
     }
     
-    public String verificarTipo(){
-        if (lado1 == lado2 && lado1 == lado3){
+    public String tipoTriangulo(){
+        if(ladoA == ladoB && ladoA == ladoC){
             return "Equilátero";
-        } else if (lado1 == lado2 || lado1 == lado3 || lado2 == lado3){
-            return "Isósceles";
-        } else{
+        } 
+        
+        else if(ladoA != ladoB && ladoA != ladoC && ladoB != ladoC){
             return "Escaleno";
+        } 
+        
+        else{
+            return "Isósceles";
         }
     }
     
     public double calcularArea(){
-        double p = calcularPerimetro() / 2;
-        return Math.sqrt(p * (p - lado1) * (p - lado2) * (p - lado3));
+        double p = calcularPerimetro() / 2.0;
+        return Math.sqrt(p * (p - ladoA) * (p - ladoB) * (p - ladoC));
     }
     
     public double calcularPerimetro(){
-        return lado1 + lado2 + lado3;
+        return ladoA + ladoB + ladoC;
     }
     
     public static void main(String[] args){
         Triangulo t1 = new Triangulo(3, 4, 5);
-        Triangulo t2 = new Triangulo(5, 5, 7);
+        System.out.println("Tipo do triângulo: " + t1.tipoTriangulo());
+        System.out.println("Área do triângulo: " + t1.calcularArea());
+        System.out.println("Perímetro do triângulo: " + t1.calcularPerimetro());
         
-        System.out.println("Triângulo 1:");
-        System.out.println("Tipo: " + t1.verificarTipo());
-        System.out.println("Área: " + t1.calcularArea());
-        System.out.println("Perímetro: " + t1.calcularPerimetro());
-        
-        System.out.println("\nTriângulo 2:");
-        System.out.println("Tipo: " + t2.verificarTipo());
-        System.out.println("Área: " + t2.calcularArea());
-        System.out.println("Perímetro: " + t2.calcularPerimetro());
+        Triangulo t2 = new Triangulo(2, 2, 3);
+        System.out.println("Tipo do triângulo: " + t2.tipoTriangulo());
+        System.out.println("Área do triângulo: " + t2.calcularArea());
+        System.out.println("Perímetro do triângulo: " + t2.calcularPerimetro());
     }
 }
+

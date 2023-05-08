@@ -19,9 +19,11 @@ public class Data{
     }
     
     public boolean ehBissexto(){
-        if (ano % 4 == 0 && (ano % 100 != 0 || ano % 400 == 0)) {
+        if (ano % 4 == 0 && (ano % 100 != 0 || ano % 400 == 0)){
             return true;
-        } else{
+        } 
+        
+        else{
             return false;
         }
     }
@@ -31,8 +33,9 @@ public class Data{
         if (mes < 1 || mes > 12){
             return false;
         }
+
         if (dia < 1 || dia > diasPorMes[mes - 1]){
-            if (mes == 2 && dia == 29 && ehBissexto()) {
+            if (mes == 2 && dia == 29 && ehBissexto()){
                 return true;
             }
             return false;
@@ -43,7 +46,9 @@ public class Data{
     public String feriadoFinados(){
         if (mes == 11 && dia == 2){
             return "02 de Novembro de " + ano;
-        } else {
+        } 
+        
+        else{
             return "Não é feriado de Dia dos Finados.";
         }
     }
@@ -55,13 +60,17 @@ public class Data{
         
         if (d.ehBissexto()){
             System.out.println("O ano " + d.ano + " é bissexto.");
-        } else{
+        } 
+        
+        else{
             System.out.println("O ano " + d.ano + " não é bissexto.");
         }
         
         if (d.ehDataValida()){
             System.out.println("A data " + d.dia + "/" + d.mes + "/" + d.ano + " é válida.");
-        } else{
+        } 
+        
+        else{
             System.out.println("A data " + d.dia + "/" + d.mes + "/" + d.ano + " é inválida.");
         }
         

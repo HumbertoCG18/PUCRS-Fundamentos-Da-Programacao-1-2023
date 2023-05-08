@@ -1,0 +1,13 @@
+O construtor Data recebe os parâmetros dia, mes e ano e atribui seus valores aos respectivos atributos da classe.
+
+O método "mesPorExtenso" retorna o nome do mês por extenso com base no valor do atributo mes.
+
+O método "ehBissexto" retorna true se o ano é bissexto e false caso contrário. Ele verifica se o ano é divisível por 4 e, caso seja, verifica se é divisível por 100 e não é divisível por 400, ou se é divisível por 400. Essa é a regra utilizada para determinar anos bissextos no calendário gregoriano.
+
+O método "ehBissexto()" verifica se o ano é bissexto ou não, seguindo a regra de que um ano é bissexto se ele for divisível por 4, mas não por 100, exceto se for divisível por 400. Se a condição for verdadeira, o método retorna true, caso contrário, retorna false.
+
+O método "ehDataValida()" verifica se a data é válida ou não. Para isso, utiliza um array diasPorMes com a quantidade de dias de cada mês. Primeiro, verifica se o mês é válido, ou seja, se está entre 1 e 12. Em seguida, verifica se o dia é válido, levando em consideração a quantidade de dias do mês correspondente. Se o mês for fevereiro, verifica se o dia é 29 e se o ano é bissexto, e retorna true caso ambas as condições sejam verdadeiras. Caso contrário, retorna false.
+
+O método "feriadoFinados()" verifica se a data corresponde ao feriado de Dia dos Finados (2 de novembro). Se a data for igual a essa, retorna uma string com a data e o ano. Caso contrário, retorna uma string informando que não é feriado de Dia dos Finados.
+
+Na classe principal "DataPrincipal", o método "main()" instancia um objeto da classe Data com o dia 2, mês 11 e ano 2023, e chama os métodos "mesPorExtenso()", "ehBissexto()", "ehDataValida()" e "feriadoFinados()", mostrando seus resultados no console.
