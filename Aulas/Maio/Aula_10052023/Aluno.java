@@ -1,4 +1,4 @@
-package Aulas.Maio.Aula_08052023;
+package Aulas.Maio.Aula_10052023;
 /**
  * exemplo Classe Aluno
  *
