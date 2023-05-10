@@ -1,4 +1,5 @@
-#PUCRS-Fundamentos-Da-Programacao-1
-Trabalhos e projetos feitos em java do Primeiro Semestre da faculdade.
-Trabalhos do primeiro semestre da faculdade, feitos em java, tendo mais a introdução da linguagem.
-Feitos em BlueJ e VSCode. 
+#PUCRS-Fundamentos-Da-Programacao-1 - 1 Semestre
+
+Aulas = Todos os códigos de apoio que tem no moodle 
+BibliotecaM = Biblioteca de métodos java para o uso em provas, trabalhos e etc. 
+Exercícios = Todos os exercícios em ordem cronológica que é dado em aula, com as resoluções e explicações de cada exercício. 
