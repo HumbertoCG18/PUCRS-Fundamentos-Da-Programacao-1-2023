@@ -1,13 +1,13 @@
-package Exercícios.Exercicios_OO;
+package Exercícios.Lista_5;
 
 //Aula de maio 08.05.2023
 
-public class Data{
+public class Exercicio1{
     private int dia;
     private int mes;
     private int ano;
     
-    public Data(int dia, int mes, int ano){
+    public Exercicio1(int dia, int mes, int ano){
         this.dia = dia;
         this.mes = mes;
         this.ano = ano;
@@ -54,7 +54,7 @@ public class Data{
     }
     
     public static void main(String[] args){
-        Data d = new Data(2, 11, 2023);
+        Exercicio1 d = new Exercicio1(2, 11, 2023);
         
         System.out.println("Mês por extenso: " + d.mesPorExtenso());
         

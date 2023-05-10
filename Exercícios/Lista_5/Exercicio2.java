@@ -1,12 +1,12 @@
-package Exercícios.Exercicios_OO;
+package Exercícios.Lista_5;
 
 //Aula de maio 08.05.2023
 
-public class Retangulo{
+public class Exercicio2{
     private double base;
     private double altura;
     
-    public Retangulo(double base, double altura){
+    public Exercicio2(double base, double altura){
         this.base = base;
         this.altura = altura;
     }
@@ -24,8 +24,8 @@ public class Retangulo{
     }
     
     public static void main(String[] args){
-        Retangulo r1 = new Retangulo(5, 10);
-        Retangulo r2 = new Retangulo(7, 3);
+        Exercicio2 r1 = new Exercicio2(5, 10);
+        Exercicio2 r2 = new Exercicio2(7, 3);
         
         System.out.println("Retangulo 1:");
         System.out.println("Área: " + r1.calcularArea());
