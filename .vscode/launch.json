@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Exercicio3",
+            "request": "launch",
+            "mainClass": "Exercicios.Lista_5.Exercicio3",
+            "projectName": "PUCRS-Fundamentos-Da-Programacao-1_10649441"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio1",
+            "request": "launch",
+            "mainClass": "Exercicios.Lista_5.Exercicio1",
+            "projectName": "PUCRS-Fundamentos-Da-Programacao-1_10649441"
+        },
+        {
+            "type": "java",
+            "name": "AppAluno",
+            "request": "launch",
+            "mainClass": "Aulas.Maio.Aula_10052023.AppAluno",
+            "projectName": "PUCRS-Fundamentos-Da-Programacao-1_10649441"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio2",
+            "request": "launch",
+            "mainClass": "Exercicios.Lista_5.Exercicio2",
+            "projectName": "PUCRS-Fundamentos-Da-Programacao-1_10649441"
+        },
+        {
+            "type": "java",
             "name": "AppAluno",
             "request": "launch",
             "mainClass": "Aulas.Maio.Aula_08052023.AppAluno",

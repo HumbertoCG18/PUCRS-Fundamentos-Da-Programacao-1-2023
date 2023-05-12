@@ -1,7 +1,0 @@
-A classe Retangulo possui dois atributos privados base e altura, que são definidos no construtor da classe.
-Os métodos calcularArea, calcularPerimetro e calcularDiagonal são implementados como métodos de instância da classe, ou seja, são chamados em um objeto específico da classe.
-O método calcularArea calcula a área do retângulo multiplicando a base pela altura.
-O método calcularPerimetro calcula o perímetro do retângulo somando a base e a altura, e multiplicando o resultado por 2.
-O método calcularDiagonal calcula o comprimento da diagonal do retângulo utilizando o teorema de Pitágoras.
-Na classe principal, são criados dois objetos r1 e r2 da classe Retangulo, com diferentes valores de base e altura.
-Os resultados dos métodos de cálculo de área, perímetro e diagonal são mostrados na tela para cada objeto r1 e r2.

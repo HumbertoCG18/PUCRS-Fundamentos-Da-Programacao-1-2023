@@ -10,8 +10,7 @@ public class AppAluno{
 public static void main(String [] args){
         try (Scanner teclado = new Scanner(System.in)) {
                 Aluno um= new Aluno ("Eva",18,"Algebra", 9,8,7.5);
-                Aluno dois= new Aluno ("Adao",21,"Algebra", 7,8,10);
-                //aqui estamos fazendo 2 em 1 criamos a variavel de objeto e ja imediatamente colocamos conteudo (endere�o do objeto criado pelo NEW)
+                Aluno dois= new Aluno ("Adao",21,"Algebra", 7,8,10); //aqui estamos fazendo 2 em 1 criamos a variavel de objeto e ja imediatamente colocamos conteudo (endere�o do objeto criado pelo NEW)
                 Aluno quatro, cinco;//variaveis de objeto do tipo Aluno
                 System.out.println(um);//ou um.toString()...voces criarem imprimeTudo() um.imprimeTudo();
                 System.out.println(dois.toString());//envia uma mensagem objeto.metodo
