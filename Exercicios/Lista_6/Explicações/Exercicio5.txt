@@ -1,0 +1,15 @@
+Neste exemplo, o método subtrairVetores(Exercicio5) recebe dois vetores de inteiros, vetor1 e vetor2, como parâmetros e retorna um terceiro vetor, vetor3, cujos elementos são o resultado da subtração dos elementos correspondentes de vetor1 e vetor2. O programa principal cria dois vetores, chama o método subtrairVetores passando os vetores como argumentos e exibe o resultado na saída.
+
+No método subtrairVetores(Exercicio5):
+
+Verificamos se os vetores têm o mesmo tamanho. Se os vetores tiverem tamanhos diferentes, lançamos uma exceção IllegalArgumentException com uma mensagem de erro apropriada.
+
+Inicializamos a variável tamanho com o tamanho dos vetores vetor1 e vetor2.
+
+Criamos um novo vetor, vetor3, com o mesmo tamanho dos vetores de entrada.
+
+Utilizando um loop for, percorremos os elementos dos vetores vetor1 e vetor2 até o índice tamanho - 1. A cada iteração, subtraímos os elementos correspondentes dos vetores e atribuímos o resultado ao vetor vetor3 no mesmo índice.
+
+Após o loop, retornamos o vetor vetor3, que contém o resultado da subtração dos elementos correspondentes de vetor1 e vetor2.
+
+No método main, criamos dois vetores e chamamos o método subtrairVetores(Exercicio5), passando os vetores como argumentos. O resultado é armazenado no vetor vetor3, que é exibido na saída usando um loop for.

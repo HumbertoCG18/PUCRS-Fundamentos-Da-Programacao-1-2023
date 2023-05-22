@@ -1,0 +1,13 @@
+Neste exemplo, o método encontrarMaiorValor(Exercicio3) recebe um vetor de inteiros como parâmetro e retorna o maior valor presente no vetor. O programa principal cria um vetor, chama o método encontrarMaiorValor passando o vetor como argumento e exibe o resultado na saída.
+
+No método encontrarMaiorValor(Exercicio3):
+
+Verificamos se o vetor está vazio. Se o vetor tiver tamanho zero, lançamos uma exceção IllegalArgumentException com uma mensagem de erro apropriada.
+
+Inicializamos a variável maiorValor com o primeiro elemento do vetor, assumindo que é o maior valor até o momento.
+
+Utilizando um loop for, percorremos os elementos do vetor a partir do índice 1. Comparamos cada elemento com o valor atual de maiorValor e, se encontrarmos um valor maior, atualizamos a variável maiorValor.
+
+Após o loop, retornamos a variável maiorValor, que conterá o maior valor encontrado no vetor.
+
+No método main, criamos um vetor e chamamos o método encontrarMaiorValor(Exercicio3), passando o vetor como argumento. O resultado é armazenado na variável maiorValor, que é exibida na saída com uma mensagem informativa.

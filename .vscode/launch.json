@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Exercicio8",
+            "request": "launch",
+            "mainClass": "Exercicios.Lista_6.Exercicio8",
+            "projectName": "PUCRS-Fundamentos-Da-Programacao-1_10649441"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio4",
+            "request": "launch",
+            "mainClass": "Exercicios.Lista_6.Exercicio4",
+            "projectName": "PUCRS-Fundamentos-Da-Programacao-1_10649441"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio3",
+            "request": "launch",
+            "mainClass": "Exercicios.Lista_6.Exercicio3",
+            "projectName": "PUCRS-Fundamentos-Da-Programacao-1_10649441"
+        },
+        {
+            "type": "java",
             "name": "Exercicio3",
             "request": "launch",
             "mainClass": "Exercicios.Lista_5.Exercicio3",

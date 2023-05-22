@@ -1,0 +1,13 @@
+Neste exemplo, o método encontrarMenorValor(Exercicio4) recebe um vetor de inteiros como parâmetro e retorna o menor valor presente no vetor. O programa principal cria um vetor, chama o método encontrarMenorValor passando o vetor como argumento e exibe o resultado na saída.
+
+No método encontrarMenorValor(Exercicio4):
+
+Verificamos se o vetor está vazio. Se o vetor tiver tamanho zero, lançamos uma exceção IllegalArgumentException com uma mensagem de erro apropriada.
+
+Inicializamos a variável menorValor com o primeiro elemento do vetor, assumindo que é o menor valor até o momento.
+
+Utilizando um loop for, percorremos os elementos do vetor a partir do índice 1. Comparamos cada elemento com o valor atual de menorValor e, se encontrarmos um valor menor, atualizamos a variável menorValor.
+
+Após o loop, retornamos a variável menorValor, que conterá o menor valor encontrado no vetor.
+
+No método main, criamos um vetor e chamamos o método encontrarMenorValor(Exercicio4), passando o vetor como argumento. O resultado é armazenado na variável menorValor, que é exibida na saída com uma mensagem informativa.

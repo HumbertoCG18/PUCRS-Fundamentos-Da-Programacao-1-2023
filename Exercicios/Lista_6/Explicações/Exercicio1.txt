@@ -1,0 +1,21 @@
+1 - Primeiro, temos a declaração da classe VetorSoma(Exercicio1).
+
+2 - No método main, que é o ponto de entrada do programa, são criados dois vetores vetor1 e vetor2 e inicializados com valores. Esses vetores contêm os elementos que desejamos somar.
+
+3 - Em seguida, chamamos o método somarVetores passando os vetores vetor1 e vetor2 como argumentos. O retorno desse método é armazenado na variável resultado.
+
+4 - No método somarVetores, recebemos os vetores vetor1 e vetor2 como parâmetros. Esses vetores têm tamanhos potencialmente diferentes, mas queremos somar apenas os elementos correspondentes.
+
+5 - Declaramos uma variável tamanho que guarda o tamanho mínimo entre os dois vetores. Isso é feito usando o método Math.min, que retorna o valor mínimo entre dois números.
+
+6 - Em seguida, criamos um novo vetor chamado resultado com tamanho igual a tamanho. Este vetor será usado para armazenar os elementos resultantes da soma.
+
+7 - Usando um loop for, percorremos os elementos dos vetores vetor1 e vetor2 até o índice tamanho - 1. Dentro do loop, somamos os elementos correspondentes dos vetores e armazenamos o resultado no vetor resultado no mesmo índice.
+
+8 - Após o loop, retornamos o vetor resultado que contém a soma dos elementos correspondentes de vetor1 e vetor2.
+
+9 - Voltando ao método main, imprimimos a mensagem "Resultado da soma:".
+
+10 - Em seguida, usamos outro loop for para percorrer os elementos do vetor resultado e exibi-los na saída.
+
+11 - O programa realiza a soma dos elementos correspondentes de dois vetores e exibe o resultado na saída. É importante observar que o programa assume que os vetores têm o mesmo tamanho ou que o tamanho do vetor menor será usado para determinar o tamanho do vetor resultado.

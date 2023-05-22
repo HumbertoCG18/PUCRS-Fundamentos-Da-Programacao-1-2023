@@ -1,0 +1,13 @@
+Neste exemplo, o método calcularProdutoEscalar(Exercicio 2) recebe dois vetores de inteiros como parâmetros e retorna o produto escalar entre eles. O programa principal cria dois vetores, chama o método calcularProdutoEscalar passando os vetores como argumentos e exibe o resultado na saída.
+
+No método calcularProdutoEscalar(Exercicio 2):
+
+1 - Inicializamos a variável tamanho com o tamanho mínimo entre vetor1 e vetor2 usando o método Math.min.
+
+2 - Em seguida, declaramos a variável produtoEscalar e a inicializamos com o valor zero. Essa variável será usada para acumular o resultado do produto escalar.
+
+3 - Utilizando um loop for, percorremos os elementos dos vetores vetor1 e vetor2 até o índice tamanho - 1. A cada iteração, multiplicamos os elementos correspondentes dos vetores e adicionamos o resultado à variável produtoEscalar.
+
+4 - Após o loop, retornamos a variável produtoEscalar, que conterá o valor do produto escalar entre os vetores vetor1 e vetor2.
+
+No método main, chamamos o método calcularProdutoEscalar(Exercicio 2), passando os vetores vetor1 e vetor2 como argumentos. O resultado é armazenado na variável produtoEscalar, que é exibida na saída com uma mensagem informativa.

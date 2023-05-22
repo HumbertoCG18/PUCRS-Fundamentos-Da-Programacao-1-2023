@@ -1,0 +1,13 @@
+Neste exemplo, o método substituirPosicoesParesImpares(Exercicio7) recebe um vetor de inteiros como parâmetro e retorna um novo vetor em que os elementos das posições pares foram substituídos por -2 e os elementos das posições ímpares foram substituídos por -1. O programa principal cria um vetor, chama o método substituirPosicoesParesImpares passando o vetor como argumento e exibe o vetor original e o vetor alterado na saída.
+
+No método substituirPosicoesParesImpares(Exercicio7):
+
+Criamos um novo vetor, vetorAlterado, com o mesmo tamanho do vetor original.
+
+Copiamos os elementos do vetor original para o vetor vetorAlterado, mantendo assim o vetor original inalterado.
+
+Utilizando um loop for, percorremos todas as posições do vetor vetorAlterado. Se a posição for par (índice divisível por 2), substituímos o elemento por -2. Caso contrário, se a posição for ímpar, substituímos o elemento por -1.
+
+Por fim, retornamos o vetor vetorAlterado, que contém os elementos com as substituições nas posições pares e ímpares.
+
+No método main, criamos um vetor e chamamos o método substituirPosicoesParesImpares(Exercicio7), passando o vetor como argumento. O resultado é armazenado no vetor vetorAlterado, que é exibido na saída usando loops for separados para mostrar o vetor original e o vetor alterado.
