@@ -19,39 +19,40 @@ public class VetoresAula1 {
     }
 
     public static void main(String[] args) {
-        Scanner teclado = new Scanner(System.in);
-        int quant;
-        int[] vetor1;// declara uma posicao de memoria do tipo Array variavel de objeto
-        System.out.println("\f");
+        try (Scanner teclado = new Scanner(System.in)) {
+            int quant;
+            int[] vetor1;// declara uma posicao de memoria do tipo Array variavel de objeto
+            System.out.println("\f");
 
-        do {// garante que o tamanho e um valor inteiro e positivo
-            System.out.println("\n Digite a quantidade de valores a serem inseridos  nos  vetores ");
-            quant = teclado.nextInt();
-        } while (quant <= 0);
-        vetor1 = new int[quant]; // cria objeto tipo Array do tamanho especificado e com conteudo int
-        int[] vetor2 = new int[quant];// cria objeto tipo Array do tamanho especificado e com conteudo int
-        System.out.println("\n Digite os elementos do 1o vetor ");
+            do {// garante que o tamanho e um valor inteiro e positivo
+                System.out.println("\n Digite a quantidade de valores a serem inseridos  nos  vetores ");
+                quant = teclado.nextInt();
+            } while (quant <= 0);
+            vetor1 = new int[quant]; // cria objeto tipo Array do tamanho especificado e com conteudo int
+            int[] vetor2 = new int[quant];// cria objeto tipo Array do tamanho especificado e com conteudo int
+            System.out.println("\n Digite os elementos do 1o vetor ");
 
-        for (int i = 0; i < quant; i++) { // maneira padrao de colocar dados no vetor
-            System.out.println("\n Digite o valor inteiro a ser colocado na posicao: " + (i + 1));// porque o 1o indice
-                                                                                                  // e zero
-            int valor = teclado.nextInt();
-            vetor1[i] = valor;
-            // vetor[i]=teclado.nextInt();
+            for (int i = 0; i < quant; i++) { // maneira padrao de colocar dados no vetor
+                System.out.println("\n Digite o valor inteiro a ser colocado na posicao: " + (i + 1));// porque o 1o indice
+                                                                                                      // e zero
+                int valor = teclado.nextInt();
+                vetor1[i] = valor;
+                // vetor[i]=teclado.nextInt();
+            }
+
+            System.out.println("\n Digite os elementos do 2o vetor ");
+            for (int i = 0; i < quant; i++) {
+                System.out.println("\n Digite o valor inteiro a ser colocado na posicao: " + (i + 1));
+                int valor = teclado.nextInt();
+                vetor2[i] = valor;
+            }
+
+            System.out.println("\f");
+            System.out.println("\n vetor 1 ");
+            imprime2(vetor1);
+            System.out.println("\n vetor 2 ");
+            imprime(vetor2);
         }
-
-        System.out.println("\n Digite os elementos do 2o vetor ");
-        for (int i = 0; i < quant; i++) {
-            System.out.println("\n Digite o valor inteiro a ser colocado na posicao: " + (i + 1));
-            int valor = teclado.nextInt();
-            vetor2[i] = valor;
-        }
-
-        System.out.println("\f");
-        System.out.println("\n vetor 1 ");
-        imprime2(vetor1);
-        System.out.println("\n vetor 2 ");
-        imprime(vetor2);
         System.out.println("\n vetor soma ");
 
     }
