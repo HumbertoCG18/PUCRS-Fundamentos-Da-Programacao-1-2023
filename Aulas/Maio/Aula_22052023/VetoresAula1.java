@@ -60,13 +60,13 @@ public class VetoresAula1 {
     /*
      * EXERCICIOS
      * 1) crie um metodo que devolve a soma de dois vetores (FEITO)
-     * 2) crie um metodo que devolve o porduto escalar de dois vetores(FEITO)
-     * 3) crie um metodo que devolve o maior valor de um vetor(FEITO)
-     * 4) crie um metodo que devolve o menor valor de um vetor(FEITO)
-     * 5) crie um metodo subtrai que cria um 3o vetor cujos elementos resulatm da subtracao dos outros dois vetro1+vetor2 -> vetor 3(FEITO)
+     * 2) crie um metodo que devolve o porduto escalar de dois vetores (FEITO)
+     * 3) crie um metodo que devolve o maior valor de um vetor (FEITO)
+     * 4) crie um metodo que devolve o menor valor de um vetor (FEITO)
+     * 5) crie um metodo subtrai que cria um 3o vetor cujos elementos resulatm da subtracao dos outros dois vetro1+vetor2 -> vetor 3 (FEITO)
      * 6) crie um metodo que troque os elementos das posicoes pares pelos elementos das posicoes impares (detalhe o vetor original deve ser mantido) (FEITO)
      * 7) crie um metodo que substitua os elementos das posicoes pares por -2 e os elementos das posicoes impares por -1 (detalhe o vetor original deve ser mantido) (FEITO)
-     * 8) crie um menu que permita ao usuario escolher as posicoes ofertadas por seu programa
+     * 8) crie um menu que permita ao usuario escolher as posicoes ofertadas por seu programa (FEITO)
      */
 
 }

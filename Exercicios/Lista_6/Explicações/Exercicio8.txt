@@ -1,0 +1,25 @@
+No método main, começamos definindo um vetor de exemplo, no caso, {1, 2, 3, 4, 5, 6, 7}. 
+
+Em seguida, chamamos o método exibirMenu passando o vetor como argumento.
+
+O método exibirMenu é responsável por exibir o menu e processar as opções escolhidas pelo usuário. Ele utiliza um loop do-while para continuar exibindo o menu até que o usuário escolha a opção de sair.
+
+Dentro do loop do-while, o menu é exibido na tela usando comandos de impressão no console. São exibidas três opções: exibir o vetor, escolher uma posição ou sair do programa.
+
+O programa lê a entrada do usuário usando a classe Scanner. Antes de chamar scanner.nextInt(), é verificado se a entrada fornecida é um número inteiro válido usando o método hasNextInt(). 
+
+Se a entrada for válida, o número inteiro é lido e armazenado na variável opcao.
+
+Em seguida, é utilizado um switch-case para processar a opção escolhida pelo usuário. Caso a opção seja 1, o método exibirVetor é chamado para exibir o vetor na tela. Caso a opção seja 2, o método escolherPosicao é chamado para permitir ao usuário escolher uma posição do vetor e exibir o valor correspondente. Caso a opção seja 3, uma mensagem de saída é exibida e o loop é encerrado.
+
+Após cada execução de opção, uma linha em branco é exibida no console para melhorar a legibilidade.
+
+O loop do-while continua executando enquanto a opção escolhida pelo usuário for diferente de 3, ou seja, enquanto o usuário não escolher sair do programa.
+
+O método exibirVetor recebe o vetor como argumento e percorre seus elementos, imprimindo-os no console. Cada elemento é separado por um espaço.
+
+O método escolherPosicao recebe o vetor e o objeto Scanner como argumentos. Ele solicita ao usuário que informe uma posição do vetor e verifica se a entrada fornecida é um número inteiro válido usando hasNextInt(). Se for válido, o número inteiro é lido e armazenado na variável posicao. Em seguida, verifica-se se a posição está dentro dos limites do vetor. Se estiver, o valor correspondente é exibido no console. 
+
+Caso contrário, é exibida uma mensagem de posição inválida.
+
+Após cada chamada ao método nextInt() ou hasNextInt(), é recomendado chamar o método nextLine() do Scanner para limpar a quebra de linha pendente, permitindo que a entrada seja lida corretamente em iterações futuras.
