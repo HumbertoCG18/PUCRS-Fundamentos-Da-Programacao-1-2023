@@ -14,6 +14,7 @@ public static void main(String [] args){
                 Aluno quatro, cinco;//variaveis de objeto do tipo Aluno
                 System.out.println(um);//ou um.toString()...voces criarem imprimeTudo() um.imprimeTudo();
                 System.out.println(dois.toString());//envia uma mensagem objeto.metodo
+                System.out.println("-------------------------");
                 // buscar os valores para usar na passagem de parametro ao criar um novo objeto
                 System.out.println("\n Digite nome da disciplina:");
                 String d=teclado.nextLine();
@@ -27,6 +28,8 @@ public static void main(String [] args){
                 double n2=teclado.nextDouble();
                 System.out.println("\n Digite nota3:");
                 double n3=teclado.nextDouble();
+
+                
                 Aluno tres=new Aluno(n,i,d,n1,n2,n3);//apos obter novos valores para os atrubutos eu crio o objeto tres
                 System.out.println(tres);//imprimo o conteudo do objeto
                 System.out.println("\n Nome do aluno 1 é: "+ um.getNome());
@@ -36,15 +39,17 @@ public static void main(String [] args){
                 double media1=(um.getNota1()+um.getNota2()+um.getNota3())/3;
                 double media2=(dois.getNota1()+dois.getNota2()+dois.getNota3())/3;
                 double media3=(tres.getNota1()+tres.getNota2()+tres.getNota3())/3;
-                System.out.println("\n Media das notas do aluno 1 é: "+ media1);
-                System.out.println("\n Media das notas do aluno 2 é: "+ media2);
-                System.out.println("\n Media das notas do aluno 3 é: "+ media3);
+                System.out.println("\n Media das notas do aluno 1 é: "+ Math.round(media1));
+                System.out.println("\n Media das notas do aluno 2 é: "+ Math.round(media2));
+                System.out.println("\n Media das notas do aluno 3 é: "+ Math.round(media3));
                 //media das medias
-                double media= (media1+media2+media3)/3;
-                System.out.println("\n Media das medias dos aluno é: "+ media);
+                double media= Math.round((media1+media2+media3)/3);
+                System.out.println("\n Media das medias dos aluno é: "+ Math.round(media));
+                
                 quatro=um;
                 cinco=dois;
-                tres=quatro;
+                tres=dois;
+                
                 System.out.println(um);
                 System.out.println(dois);
                 System.out.println(tres);
