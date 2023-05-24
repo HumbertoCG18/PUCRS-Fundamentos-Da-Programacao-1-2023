@@ -9,7 +9,7 @@ public class Exercicio1{
         
         System.out.println("Resultado da soma:");
         for (int i = 0; i < resultado.length; i++) {
-            System.out.print(resultado[i] + " ");
+            System.out.println(resultado[i] + " ");
         }
     }
     

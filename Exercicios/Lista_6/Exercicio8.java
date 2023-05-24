@@ -22,7 +22,6 @@ public class Exercicio8 {
 
             if (scanner.hasNextInt()) {
                 opcao = scanner.nextInt();
-
                 switch (opcao) {
                     case 1:
                         exibirVetor(vetor);
@@ -37,7 +36,9 @@ public class Exercicio8 {
                         System.out.println("Opção inválida. Tente novamente.");
                         break;
                 }
-            } else {
+            } 
+            
+            else {
                 System.out.println("Entrada inválida. Certifique-se de informar um número inteiro válido.");
                 scanner.nextLine(); // Limpar a entrada inválida
                 opcao = 0; // Definir opção inválida para continuar no loop

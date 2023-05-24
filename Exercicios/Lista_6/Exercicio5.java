@@ -9,7 +9,7 @@ public class Exercicio5{
         
         System.out.println("Resultado da subtração:");
         for (int i = 0; i < vetor3.length; i++) {
-            System.out.print(vetor3[i] + " ");
+            System.out.println(vetor3[i] + " ");
         }
     }
     
