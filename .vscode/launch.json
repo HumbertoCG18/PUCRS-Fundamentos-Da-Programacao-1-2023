@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AppBicho",
+            "request": "launch",
+            "mainClass": "AppBicho",
+            "projectName": "PUCRS-Fundamentos-Da-Programacao-1_10649441"
+        },
+        {
+            "type": "java",
             "name": "Exercicio2",
             "request": "launch",
             "mainClass": "Exercicios.Lista_6.Exercicio2",
