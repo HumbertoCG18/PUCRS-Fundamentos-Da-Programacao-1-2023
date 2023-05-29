@@ -1,3 +1,6 @@
+//Autor: Humberto Corrêa Gomes
+//Data: 22/05/2023
+
 package Exercicios.Lista_6;
 
 public class Exercicio4{
