@@ -4,6 +4,13 @@ package Exercicios.Lista_3;
 import java.util.Scanner;
 import BibliotecaM.P1.VerifPrimo;
 
+/**
+ * {@summary Determinar quantos numeros primos existem em um conjunto de 10 números digitados pelo usuário.}
+ * @author (Humberto Corrêa Gomes)
+ * @date (05.04.2023)
+ * @version (1.0)
+ */
+
 public class Exercicio6 {
     public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {

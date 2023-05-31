@@ -2,8 +2,15 @@ package Exercicios.Lista_3;
 import java.util.Scanner;
 import BibliotecaM.P1.NumPar;
 
-public class Exercicio4{
 
+/**
+ * {@summary Ler 10 números digitados pelo usuário, escrever os mesmos por extenso, e no final, determinar quantos numeros foram impares e quantos foram pares.}
+ * @author (Humberto Corrêa Gomes)
+ * @date (05.04.2023)
+ * @version (1.0)
+ */
+
+public class Exercicio4{
     public static String[] unidades = {"zero", "um", "dois", "três", "quatro", "cinco", "seis", "sete", "oito", "nove", "dez", "onze", "doze", "treze", "catorze", "quinze", "dezesseis", "dezessete", "dezoito", "dezenove"};
 
     public static String[] dezenas = {"", "", "vinte", "trinta", "quarenta", "cinquenta", "sessenta", "setenta", "oitenta", "noventa"};

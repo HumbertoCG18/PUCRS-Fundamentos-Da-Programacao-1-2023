@@ -2,6 +2,8 @@
 package Exercicios.Lista_3;
 import BibliotecaM.P1.VerifPrimo;
 
+
+
 public class Exercicio9 {
     public static void main(String[] args) {
         int count = 0;

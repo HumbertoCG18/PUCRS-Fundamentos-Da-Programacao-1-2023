@@ -8,7 +8,7 @@ public class Exercicio11{
         int count = 0; // contador de números perfeitos
         int num = 1; // número a ser testado
 
-        while(count < 10) { // repete até encontrar 10 números perfeitos
+        while(count <= 10) { // repete até encontrar 10 números perfeitos
             
             if(NumPerfeito.NPerfeito(num)) { // verifica se o número é perfeito
                 System.out.println(num);

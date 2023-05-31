@@ -4,6 +4,13 @@ package Exercicios.Lista_3;
 import java.util.Scanner;
 import BibliotecaM.P1.VerifPrimo;
 
+/**
+ * {@summary Determinar se o maior número dentro de uma sequencia de números reais digitados pelo usuário, e informar quantos números promos foram encontrados.}
+ * @author (Humberto Corrêa Gomes)
+ * @date (05.04.2023)
+ * @version (1.0)
+ */
+
 public class Exercicio7{
     public static void main(String[] args) {
         try (Scanner input = new Scanner(System.in)) {

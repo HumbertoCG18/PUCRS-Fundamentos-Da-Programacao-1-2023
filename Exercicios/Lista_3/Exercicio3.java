@@ -1,6 +1,13 @@
 package Exercicios.Lista_3;
 import java.util.Scanner;
 
+/**
+ * {@summary Determinar o signo de uma pessoa com base na sua data de nascimento}
+ * @author (Humberto Corrêa Gomes)
+ * @date (05.04.2023)
+ * @version (1.0)
+ */
+
 public class Exercicio3{
     public static void main(String[] args) {
         try (Scanner scanner = new Scanner(System.in)) {

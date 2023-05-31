@@ -1,6 +1,14 @@
 package Exercicios.Lista_3;
 import java.util.Scanner;
 
+
+/**
+ * {@summary Determinar o tipo de um triangulo com base em 3 números.}
+ * @author (Humberto Corrêa Gomes)
+ * @date (05.04.2023)
+ * @version (1.0)
+ */
+
 public class Exercicio2{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

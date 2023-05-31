@@ -1,6 +1,13 @@
 package Exercicios.Lista_3;
 import BibliotecaM.P1.VerifPrimo;
 
+/**
+ * {@summary Verificar a quantidade de números primos entre 1 - 1000}
+ * @author (Humberto Corrêa Gomes)
+ * @date (05.04.2023)
+ * @version (1.0)
+ */
+
 public class Exercicio8 {
     public static void main(String[] args) {
         int quantidadePrimos = 0;

@@ -1,8 +1,14 @@
 package Exercicios.Lista_3;
 import java.util.Scanner;
 
-public class Exercicio5{
+/**
+ * {@summary Verificação de aniversário}
+ * @author (Humberto Corrêa Gomes)
+ * @date (05.04.2023)
+ * @version (1.0)
+ */
 
+public class Exercicio5{
     public static void main(String[] args) {
         try (Scanner input = new Scanner(System.in)) {
             int hojeDia, hojeMes;

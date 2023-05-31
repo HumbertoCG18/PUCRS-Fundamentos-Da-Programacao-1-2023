@@ -2,6 +2,13 @@ package Exercicios.Lista_3;
 import java.util.Scanner;
 import java.util.Arrays;
 
+/**
+ * {@summary Ordenar 3 números em ordem decrescente}
+ * @author (Humberto Corrêa Gomes)
+ * @date (05.04.2023)
+ * @version (1.0)
+ */
+
 public class Exercicio1{
     public static void main(String[] args) {
         try (Scanner scanner = new Scanner(System.in)) {

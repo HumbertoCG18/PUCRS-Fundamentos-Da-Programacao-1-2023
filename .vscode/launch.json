@@ -6,15 +6,51 @@
     "configurations": [
         {
             "type": "java",
-<<<<<<< HEAD
+            "name": "Exercicio11",
+            "request": "launch",
+            "mainClass": "Exercicios.Lista_3.Exercicio11",
+            "projectName": "PUCRS-Fundamentos-Da-Programacao-1_10649441"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio10",
+            "request": "launch",
+            "mainClass": "Exercicios.Lista_3.Exercicio10",
+            "projectName": "PUCRS-Fundamentos-Da-Programacao-1_10649441"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio9",
+            "request": "launch",
+            "mainClass": "Exercicios.Lista_3.Exercicio9",
+            "projectName": "PUCRS-Fundamentos-Da-Programacao-1_10649441"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio8",
+            "request": "launch",
+            "mainClass": "Exercicios.Lista_3.Exercicio8",
+            "projectName": "PUCRS-Fundamentos-Da-Programacao-1_10649441"
+        },
+        {
+            "type": "java",
+            "name": "Exercicio4",
+            "request": "launch",
+            "mainClass": "Exercicios.Lista_3.Exercicio4",
+            "projectName": "PUCRS-Fundamentos-Da-Programacao-1_10649441"
+        },
+        {
+            "type": "java",
+            "name": "Aplicacao",
+            "request": "launch",
+            "mainClass": "TesteAppMedicamento.Aplicacao",
+            "projectName": "PUCRS-Fundamentos-Da-Programacao-1_10649441"
+        },
+        {
+            "type": "java",
             "name": "AplicacaoConta",
             "request": "launch",
             "mainClass": "Aulas.Maio.Aula_29052023.AplicacaoConta",
-=======
-            "name": "Aplicacao",
-            "request": "launch",
-            "mainClass": "Aplicacao",
->>>>>>> 08abee23d1781250fa121bd0e478de6bc7a07fd3
             "projectName": "PUCRS-Fundamentos-Da-Programacao-1_10649441"
         },
         {
