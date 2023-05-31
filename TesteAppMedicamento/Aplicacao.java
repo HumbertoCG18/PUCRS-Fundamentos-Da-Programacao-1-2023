@@ -1,3 +1,4 @@
+package TesteAppMedicamento;
 import java.util.Scanner;
 
 public class Aplicacao{
