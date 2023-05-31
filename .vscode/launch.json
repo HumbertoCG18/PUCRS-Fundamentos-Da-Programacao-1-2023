@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AplicacaoConta",
+            "request": "launch",
+            "mainClass": "Aulas.Maio.Aula_29052023.AplicacaoConta",
+            "projectName": "PUCRS-Fundamentos-Da-Programacao-1_10649441"
+        },
+        {
+            "type": "java",
             "name": "AppBicho",
             "request": "launch",
             "mainClass": "AppBicho",

@@ -1,12 +1,12 @@
 package Aulas.Maio.Aula_29052023;
 import java.util.Scanner;
 
-public class AplicacaoConta
-{
+public class AplicacaoConta{
     public static void main(String args[]){
         try (Scanner in = new Scanner(System.in)) {
             System.out.println("Digite o número da conta:");
             int n = in.nextInt();
+            System.out.println("");
             
             Conta c1 = new Conta(n);
             
@@ -38,7 +38,9 @@ public class AplicacaoConta
     
     public static int menu(){
         try (Scanner in = new Scanner(System.in)) {
-            System.out.println("Menu de opções");
+            System.out.println("==========================");
+            System.out.println("          Menu de opções");
+            System.out.println("==========================");
             System.out.println("(0) Sair");
             System.out.println("(1) Depositar");
             System.out.println("(2) Sacar");
