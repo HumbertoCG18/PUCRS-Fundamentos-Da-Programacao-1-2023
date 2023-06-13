@@ -42,11 +42,16 @@ public class Biblioteca {
 // public static int encontrarMaiorValor(int[] vetor) (Encontrar o maior valor de vetor) (FAZER (Lista_6/Exercicio3.java))
 // public static int encontrarMenorValor(int[] vetor)  (Encontrar o menor valor de um vetor) (FAZER (Lista_6/Exercicio4.java))
 // public static int[] subtrairVetores(int[] vetor1, int[] vetor2) (Subitrair 2 vetores) (FAZER (Lista_6/Exercicio5.java))
-
+// Criar um método que recebe uma matriz quadrada e devolve a soma dos elementos da diagonal principal. Faça em versão com 2 laços e com 1 laço
+// Criar um método que recebe uma matriz quadrada e devolve o produto dos elementos da diagonal secundária. Faça em versão com 2 laços e com 1 laço.
+// Criar um método que recebe uma matriz quadrada e devolve os elementos da diagonal principal. Faça em versão com 2 laços e com 1 laço.
+// . Criar um método que recebe uma matriz quadrada e devolve os elementos da diagonal secundária. Faça em versão com 2 laços e com 1 laço.
+//Criar um método que recebe uma matriz qualquer e armazena num vetor (jogaNoVetor). Qual seriam os parâmetros necessários?
+//Criar um método que recebe um vetor qualquer e armazena numa matriz (jogaNaMatriz). Qual seriam os parâmetros necessários? Justifique.
+//
 
 
 // ===================================================== FEITOS ===================================================================
-
 // public static int quantDivisor(int num)  (Quantidades de divisores de X) | (ContarDivisores.java)
 // public static int quantDivisorP(int num) (Quantidade de divisores próprios de X) | (DivisoresProprios.java)
 // public static int somaDivisor(int num)   (Somar os divisores de X) | (SomaDivisores.java)
