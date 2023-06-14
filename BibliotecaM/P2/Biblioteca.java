@@ -45,10 +45,8 @@ public class Biblioteca {
 // Criar um método que recebe uma matriz quadrada e devolve a soma dos elementos da diagonal principal. Faça em versão com 2 laços e com 1 laço
 // Criar um método que recebe uma matriz quadrada e devolve o produto dos elementos da diagonal secundária. Faça em versão com 2 laços e com 1 laço.
 // Criar um método que recebe uma matriz quadrada e devolve os elementos da diagonal principal. Faça em versão com 2 laços e com 1 laço.
-// . Criar um método que recebe uma matriz quadrada e devolve os elementos da diagonal secundária. Faça em versão com 2 laços e com 1 laço.
-//Criar um método que recebe uma matriz qualquer e armazena num vetor (jogaNoVetor). Qual seriam os parâmetros necessários?
-//Criar um método que recebe um vetor qualquer e armazena numa matriz (jogaNaMatriz). Qual seriam os parâmetros necessários? Justifique.
-//
+// . Criar um método que recebe uma matriz quadrada e devolve os elementos da diagonal secundária. Faça em versão com 2 laços e com 1 laço..
+//Criar um método que devolva a quantidade de números primos dentro de um vetor. 
 
 
 // ===================================================== FEITOS ===================================================================
@@ -63,7 +61,8 @@ public class Biblioteca {
 // public static int maior3 (int num1, int num2, int num3) (Escreve maior dos 3 numeros) | (Ler3.java)
 // public static int menor3 (int num1, int num2, int num3) (Escreve menor dos 3 numeros) | (Ler3.java)
 // public static int[] trocarPosicoesParesImpares(int[] vetor) (Trocar a posição dos números pares pelos impares dentro de um vetor) (Lista_6/Exercicio6.java)
-
+//Criar um método que recebe uma matriz qualquer e armazena num vetor (jogaNoVetor). Qual seriam os parâmetros necessários?
+//Criar um método que recebe um vetor qualquer e armazena numa matriz. Qual seriam os parâmetros necessários? Justifique (jogaNaMatriz.java)
 // e seguimos ampliando......
 // aqui coloque a lista dos metodos criados nos exemplos de aula e exercicios 
 
