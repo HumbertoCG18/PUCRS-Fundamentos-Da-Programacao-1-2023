@@ -38,8 +38,7 @@ public class Biblioteca {
 // public static void ordenaD (int num1, int num2, int num3) (Escreve os 3 numeros em ordem decrescente) (FAZER)
 // public static void ordenaC (int num1, int num2, int num3) (Escreve os 3 numeros em ordem crescente) (FAZER)  
 // public static int calcularProdutoEscalar(int[] vetor1, int[] vetor2) (Calcular o produto escalar de um vetor) (FAZER (Lista_6/Exercicio1.java))
-// public static int[] somarVetores(int[] vetor1, int[] vetor2) (Calcular a soma de 2 vetores) (FAZER (Lista_6/Exercicio2.java))
-// public static int encontrarMaiorValor(int[] vetor) (Encontrar o maior valor de vetor) (FAZER (Lista_6/Exercicio3.java))
+
 
 // ===================================================== FEITOS ===================================================================
 // public static int quantDivisor(int num)  (Quantidades de divisores de X) | (ContarDivisores.java)
@@ -62,7 +61,8 @@ public class Biblioteca {
 //Criar um método que devolva a quantidade de números primos dentro de um vetor. 
 // public static int[] subtrairVetores(int[] vetor1, int[] vetor2) (Subitrair 2 vetores) (FAZER (Lista_6/Exercicio5.java))
 // public static int encontrarMenorValor(int[] vetor)  (Encontrar o menor valor de um vetor) (FAZER (Lista_6/Exercicio4.java))
-
+// public static int encontrarMaiorValor(int[] vetor) (Encontrar o maior valor de vetor) (FAZER (Lista_6/Exercicio3.java))
+// public static int[] somarVetores(int[] vetor1, int[] vetor2) (Calcular a soma de 2 vetores) (FAZER (Lista_6/Exercicio2.java))
 
 
 // e seguimos ampliando......

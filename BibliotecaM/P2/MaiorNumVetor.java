@@ -1,6 +1,6 @@
 package BibliotecaM.P2;
 
-public class MaiorNumVetor{
+public class MaiorNumVetor {
     public static void main(String[] args) {
         int[] vetor = {5, 2, 9, 1, 7, 3};
         int maiorValor = encontrarMaiorValor(vetor);
