@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=CadastroPacientes
+comment1.params=
+comment1.target=CadastroPacientes()
+comment2.params=paciente
+comment2.target=void\ addNoVetor(Paciente)
+comment3.params=paciente
+comment3.target=void\ removerNoVetor(Paciente)
+comment4.params=
+comment4.target=void\ listarPacientes()
+comment5.params=
+comment5.target=void\ listarPacientesRegistrados()
+comment6.params=
+comment6.target=void\ listarPacientesAlfabetica()
+comment7.params=
+comment7.target=void\ porcentagemDiagnosticos()
+comment8.params=index
+comment8.target=Paciente\ getPacienteFromIndex(int)
+numComments=9

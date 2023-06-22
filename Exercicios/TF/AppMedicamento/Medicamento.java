@@ -1,4 +1,4 @@
-package TesteAppMedicamenoV2;
+ 
 public class Medicamento{
     
     //Atributos da classe Medicamento

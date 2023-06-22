@@ -1,4 +1,4 @@
-package TesteAppMedicamenoV2;
+ 
 import java.util.*;
 public class AplicacaoHospital{
     public static CadastroPacientes cadastro = new CadastroPacientes();

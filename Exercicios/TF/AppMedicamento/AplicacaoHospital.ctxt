@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=AplicacaoHospital
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=input
+comment2.target=void\ addPaciente(java.util.Scanner)
+comment3.params=
+comment3.target=int\ menu()
+numComments=4

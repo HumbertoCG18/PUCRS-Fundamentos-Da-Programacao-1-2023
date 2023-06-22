@@ -1,4 +1,4 @@
-package TesteAppMedicamenoV2;
+ 
 public class Estoque {
     private int[] estoques = new int[4];
 
