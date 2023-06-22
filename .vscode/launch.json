@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AplicacaoHospital",
+            "request": "launch",
+            "mainClass": "TesteAppMedicamenoV2.AplicacaoHospital",
+            "projectName": "PUCRS-Fundamentos-Da-Programacao-1_10649441"
+        },
+        {
+            "type": "java",
             "name": "Exercicio3",
             "request": "launch",
             "mainClass": "Aulas.Junho.Aula_02062023.Exercicio3",
