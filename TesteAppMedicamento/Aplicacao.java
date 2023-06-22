@@ -40,7 +40,7 @@ public class Aplicacao{
                     adicionarPaciente(scanner);
                     break;
                 case 2:
-                    removerPaciente(scanner);
+                    removerPaciente(scanner);   
                     break;
                 case 3:
                     cadastroPacientes.escreverTodoVetor();

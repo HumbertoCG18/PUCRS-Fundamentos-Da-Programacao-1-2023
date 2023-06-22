@@ -1,4 +1,4 @@
-PUCRS- Fundamentos Da Programação - 1 Semestre
+PUCRS - Fundamentos Da Programação - 1 Semestre
 
 Aulas = Todos os códigos de apoio que tem no moodle.
 
