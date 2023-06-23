@@ -1,4 +1,4 @@
-package Exercicios.TF.AppMedicamento; 
+package Exercicios.TF.AppMedicamentoVS;
 import java.util.Arrays;
 
 public class CadastroPacientes {

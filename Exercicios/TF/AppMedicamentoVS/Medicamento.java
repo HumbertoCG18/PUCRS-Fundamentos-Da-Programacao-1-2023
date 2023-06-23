@@ -1,4 +1,4 @@
-package Exercicios.TF.AppMedicamento;
+package Exercicios.TF.AppMedicamentoVS;
 public class Medicamento{
     
     //Atributos da classe Medicamento
@@ -8,10 +8,6 @@ public class Medicamento{
     
     public int[] getEstoqueTodos() {
         return estoqueTodos;
-    }
-
-    public void setEstoqueTodos(int[] estoqueTodos) {
-        this.estoqueTodos = estoqueTodos;
     }
 
     //Construtor

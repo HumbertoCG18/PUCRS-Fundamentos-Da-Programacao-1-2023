@@ -1,11 +1,10 @@
-package Exercicios.TF.AppMedicamento;
+package Exercicios.TF.AppMedicamentoVS;
 import java.util.*;
 
 public class AplicacaoHospital{
     public static CadastroPacientes cadastro = new CadastroPacientes();
     public static Estoque estoque = new Estoque();
     private static Scanner input;
-    
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
         
