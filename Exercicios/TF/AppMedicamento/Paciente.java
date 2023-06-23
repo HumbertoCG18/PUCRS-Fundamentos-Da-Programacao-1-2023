@@ -1,4 +1,4 @@
- 
+package Exercicios.TF.AppMedicamento;
 public class Paciente
 {
     // variáveis de instância - substitua o exemplo abaixo pelo seu próprio

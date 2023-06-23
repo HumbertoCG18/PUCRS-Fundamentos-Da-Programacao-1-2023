@@ -1,4 +1,4 @@
- 
+package Exercicios.TF.AppMedicamento;
 public class Medicamento{
     
     //Atributos da classe Medicamento
@@ -10,6 +10,7 @@ public class Medicamento{
     public Medicamento(String nome, int quantCaixas){
         this.nome = nome;
         this.quantCaixas = quantCaixas;
+        
     }
     
     //Getters
