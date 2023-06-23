@@ -1,8 +1,10 @@
 package Exercicios.TF.AppMedicamento;
 import java.util.*;
+
 public class AplicacaoHospital{
     public static CadastroPacientes cadastro = new CadastroPacientes();
     public static Estoque estoque = new Estoque();
+    private static Scanner input;
     
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
@@ -102,7 +104,7 @@ public class AplicacaoHospital{
     
     //Método de menu para seleção de opções do programa
     public static int menu(){
-        Scanner input = new Scanner(System.in);
+        input = new Scanner(System.in);
         System.out.println("SELECIONE A OPÇÃO DESEJADA");
         System.out.println("---------------------------------------------------------");
         System.out.println("1. Adicionar paciente");

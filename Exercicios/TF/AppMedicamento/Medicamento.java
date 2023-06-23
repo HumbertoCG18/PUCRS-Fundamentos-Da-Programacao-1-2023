@@ -6,6 +6,14 @@ public class Medicamento{
     private int quantCaixas;
     private int[] estoqueTodos = {10, 10, 10 ,10};
     
+    public int[] getEstoqueTodos() {
+        return estoqueTodos;
+    }
+
+    public void setEstoqueTodos(int[] estoqueTodos) {
+        this.estoqueTodos = estoqueTodos;
+    }
+
     //Construtor
     public Medicamento(String nome, int quantCaixas){
         this.nome = nome;

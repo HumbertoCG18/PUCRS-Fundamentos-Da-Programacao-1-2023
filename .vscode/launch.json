@@ -8,6 +8,13 @@
             "type": "java",
             "name": "AplicacaoHospital",
             "request": "launch",
+            "mainClass": "Exercicios.TF.AppMedicamento.AplicacaoHospital",
+            "projectName": "PUCRS-Fundamentos-Da-Programacao-1_10649441"
+        },
+        {
+            "type": "java",
+            "name": "AplicacaoHospital",
+            "request": "launch",
             "mainClass": "Exercicios.TF.AppMedicamentoVS.AplicacaoHospital",
             "projectName": "PUCRS-Fundamentos-Da-Programacao-1_10649441"
         },
