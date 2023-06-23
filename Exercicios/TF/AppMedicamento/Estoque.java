@@ -1,4 +1,4 @@
- 
+package Exercicios.TF.AppMedicamento;
 public class Estoque {
     private int[] estoques = new int[4];
 
