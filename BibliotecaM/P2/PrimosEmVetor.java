@@ -12,7 +12,6 @@ public class PrimosEmVetor{
             return false;
         }
         
-        // Verifica se o número é divisível por algum inteiro entre 2 e a raiz quadrada do número
         for (int i = 2; i <= Math.sqrt(numero); i++) {
             if (numero % i == 0) {
                 return false;
