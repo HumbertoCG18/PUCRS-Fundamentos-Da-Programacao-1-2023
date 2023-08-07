@@ -1,4 +1,4 @@
-package Exercicios.TF.AppMedicamento;
+ 
 public class Medicamento{
     
     //Atributos da classe Medicamento
