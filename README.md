@@ -8,8 +8,7 @@
 
 🇧🇷 Exercícios = Todos os exercícios em ordem cronológica que é dado em aula, com as resoluções e explicações de cada exercício.
 
-===========================================================================================
-
+---
 
 🇺🇸 PUCRS - Programming Fundamentals - 1 Semester
 
