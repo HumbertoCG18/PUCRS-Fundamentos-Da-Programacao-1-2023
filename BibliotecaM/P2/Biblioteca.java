@@ -32,15 +32,16 @@ public class Biblioteca {
     }
 
 // public static boolean multiplo(int num)  (Se um número é multiplo de X) (FAZER)
-// public static boolean divisor(int num)   (Se um número é divisor de X) (FAZER)
 // public static boolean triangulo (int num1, int num2, int num3) (Verificação de um triangulo) (FAZER)
 // public static void triangulo (int num1, int num2, int num3) (Categorizar um triangulo) (FAZER)
-// public static void ordenaD (int num1, int num2, int num3) (Escreve os 3 numeros em ordem decrescente) (FAZER)
-// public static void ordenaC (int num1, int num2, int num3) (Escreve os 3 numeros em ordem crescente) (FAZER)  
-// public static int calcularProdutoEscalar(int[] vetor1, int[] vetor2) (Calcular o produto escalar de um vetor) (FAZER (Lista_6/Exercicio1.java))
+
 
 
 // ===================================================== FEITOS ===================================================================
+// public static boolean divisor(int num)   (Se um número é divisor de X) (FAZER)
+// public static void ordenaD (int num1, int num2, int num3) (Escreve os 3 numeros em ordem decrescente) (FAZER)
+// public static void ordenaC (int num1, int num2, int num3) (Escreve os 3 numeros em ordem crescente) (FAZER)  
+// public static int calcularProdutoEscalar(int[] vetor1, int[] vetor2) (Calcular o produto escalar de um vetor) (FAZER (Lista_6/Exercicio1.java))
 // public static int quantDivisor(int num)  (Quantidades de divisores de X) | (ContarDivisores.java)
 // public static int quantDivisorP(int num) (Quantidade de divisores próprios de X) | (DivisoresProprios.java)
 // public static int somaDivisor(int num)   (Somar os divisores de X) | (SomaDivisores.java)
